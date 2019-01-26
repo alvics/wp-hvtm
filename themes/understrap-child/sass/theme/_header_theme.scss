@@ -1,0 +1,36 @@
+/*  Theme Styles */
+.top-bar {
+  height: 35px;
+  background-color: $light-blue;
+}
+
+.primary-menu {
+  height: 90px;
+  background-color: $dark-blue !important;
+}
+
+.navbar-brand img {
+  height: 150px;
+  padding-bottom: 25px;
+}
+
+#searchsubmit {
+  background-color: $primary !important;
+}
+
+/* ======================================================== */
+/* -----------  Media Query for Mobile to Tablet ---------- */
+/* ======================================================== */
+@media (min-width: 200px) and (max-width: 1024px) {
+  .top-bar {
+    display: none;
+  }
+  .primary-menu {
+    height: 100%;
+  }
+
+  .navbar-brand img {
+    height: 100%;
+    padding: 0;
+  }
+}
