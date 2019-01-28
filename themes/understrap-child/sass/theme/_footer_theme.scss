@@ -1,0 +1,23 @@
+#wrapper-footer-full {
+  background-color: $black !important;
+
+  h3.widget-title {
+    color: $primary;
+  }
+  div .textwidget {
+    color: $white;
+    font-weight: 300;
+  }
+}
+
+#wrapper-footer {
+  background-color: $light-blue !important;
+  padding: 5px 0;
+
+  .site-info {
+    color: $white;
+  }
+  .AP {
+    float: right !important;
+  }
+}

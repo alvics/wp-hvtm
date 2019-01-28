@@ -11382,4 +11382,20 @@ a.skip-link {
     height: 100%;
     padding: 0; } }
 
+#wrapper-footer-full {
+  background-color: #333 !important; }
+  #wrapper-footer-full h3.widget-title {
+    color: #ff4500; }
+  #wrapper-footer-full div .textwidget {
+    color: #fff;
+    font-weight: 300; }
+
+#wrapper-footer {
+  background-color: #4285f4 !important;
+  padding: 5px 0; }
+  #wrapper-footer .site-info {
+    color: #fff; }
+  #wrapper-footer .AP {
+    float: right !important; }
+
 /*# sourceMappingURL=child-theme.css.map */
