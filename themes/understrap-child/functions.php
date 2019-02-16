@@ -43,3 +43,41 @@ function wpgood_nav_search($items, $args) {
     return $items . '<li>' . get_search_form(false) . '</li>';
 }
 add_filter('wp_nav_menu_items', 'wpgood_nav_search', 10, 2);
+
+// Remove Fields Woocommerce - Checkout Billing Details
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+ 
+function custom_override_checkout_fields( $fields ) {
+    unset($fields['billing']['billing_address_2']);
+    
+    return $fields;
+}
+
+
+// add_filter( 'woocommerce_default_address_fields', 'ap_reorder_checkout_fields' );
+  
+// function ap_reorder_checkout_fields( $fields ) {
+ 
+    //  default priorities: 
+    //  'first_name' - 10
+    //  'last_name' - 20
+    //  'company' - 30
+    //  'country' - 40
+    //  'address_1' - 50
+    //  'address_2' - 60
+    //  'city' - 70
+    //  'state' - 80
+    //  'postcode' - 90
+  
+  // e.g. move 'company' above 'first_name':
+  // just assign priority less than 10
+//   $fields['company']['priority'] =21;
+//   $fields['address_1']['priority'] = 37;
+//   $fields['city']['priority'] = 38;
+//   $fields['postcode']['priority'] = 39;
+ 
+//   return $fields;
+// }
+
+
+ 

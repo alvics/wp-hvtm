@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PH: (05) 12345678</a>
+              <a class="nav-link" href="#">PH: (05) 123456789</a>
             </li>
             <!-- Hide on Desktop -->
             

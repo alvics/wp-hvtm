@@ -1,0 +1,4 @@
+2019-02-15T23:43:52+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\OohLaLava\wp-content\themes\understrap-child\functions.php on line 61
+
+2019-02-15T23:53:34+00:00 CRITICAL syntax error, unexpected 'default' (T_DEFAULT) in C:\xampp\htdocs\OohLaLava\wp-content\themes\understrap-child\functions.php on line 61
+
